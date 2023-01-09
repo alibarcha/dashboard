@@ -1,22 +1,52 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Dashboard from '../views/Dashboard.vue'
+import UserProfile from '../views/UserProfile'
+import RegularTables from '../views/RegularTables'
+import Typography from '../views/Typography'
+import Icons from '../views/Icons'
+import GoogleMaps from '../views/GoogleMaps'
+import Notifications from '../views/Notifications'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'dashboard',
+    component: Dashboard
   },
   {
-    path: '/about',
-    name: 'about',
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-    }
-  }
+    path: '/userprofile',
+    name: 'userprofile',
+    component: UserProfile
+  },
+  {
+    path: '/rugulartables',
+    name: 'regulartables',
+    component: RegularTables
+  },
+  {
+    path: '/typography',
+    name: 'typography',
+    component: Typography
+  },
+  {
+    path: '/icons',
+    name: 'icons',
+    component: Icons
+  },
+  {
+    path: '/googlemaps',
+    name: 'googlemaps',
+    component: GoogleMaps
+  },
+  {
+    path: '/notifications',
+    name: 'notifications',
+    component: Notifications
+  },
+
 ]
 
 const router = new VueRouter({

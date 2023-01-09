@@ -1,24 +1,20 @@
 <template>
   <v-app>
-
-    <!-- navabar -->
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-    </v-app-bar>
+      <TheNavbar></TheNavbar>
 
     <v-main>
       <router-view/>
     </v-main>
-    
+    footer
   </v-app>
 </template>
 
 <script>
-
+import TheNavbar from './components/TheNavbar.vue'
 export default {
   name: 'App',
+  components:{
+    TheNavbar,
+  }
 };
 </script>

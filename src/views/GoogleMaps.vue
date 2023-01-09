@@ -1,12 +1,12 @@
 <template>
-    <h1>home page</h1>
+    <h1>google maps</h1>
 </template>
 
 <script>
  
 
   export default {
-    name: 'Home',
+    name: 'GoogleMaps',
 
   }
 </script>
