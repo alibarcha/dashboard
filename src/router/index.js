@@ -7,6 +7,7 @@ import Typography from '../views/Typography'
 import Icons from '../views/Icons'
 import GoogleMaps from '../views/GoogleMaps'
 import Notifications from '../views/Notifications'
+import UpgradeToPro from '../views/UpgradeToPro'
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,11 @@ const routes = [
     path: '/notifications',
     name: 'notifications',
     component: Notifications
+  },
+  {
+    path: '/upgradetopro',
+    name: 'upgradetopro',
+    component: UpgradeToPro
   },
 
 ]
