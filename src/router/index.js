@@ -19,12 +19,12 @@ const routes = [
   },
   {
     path: '/userprofile',
-    name: 'userprofile',
+    name: 'user Profile',
     component: UserProfile
   },
   {
-    path: '/rugulartables',
-    name: 'regulartables',
+    path: '/regulartables',
+    name: 'regular Tables',
     component: RegularTables
   },
   {
@@ -39,7 +39,7 @@ const routes = [
   },
   {
     path: '/googlemaps',
-    name: 'googlemaps',
+    name: 'google Maps',
     component: GoogleMaps
   },
   {
@@ -48,8 +48,8 @@ const routes = [
     component: Notifications
   },
   {
-    path: '/upgradetopro',
-    name: 'upgradetopro',
+    path: '/upgrade',
+    name: 'upgrade',
     component: UpgradeToPro
   },
 
