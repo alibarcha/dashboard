@@ -1,5 +1,5 @@
 <template>
-  <v-footer tile padless app>
+  <v-footer tile padless inset absolute>
     <v-container>
       <v-row>
         <v-col md="6" cols="12">
