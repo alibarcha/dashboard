@@ -2,7 +2,7 @@
   <v-footer tile padless inset absolute>
     <v-container>
       <v-row>
-        <v-col md="6" cols="12">
+        <v-col md="6" cols="12" class="text-lg-start  text-center">
           <a
             target="_blank"
             href="#"
@@ -29,7 +29,7 @@
             >LICENSES</a
           >
         </v-col>
-        <v-col md="6" cols="12" class="text-sm-end"
+        <v-col md="6" cols="12" class="text-lg-end text-center"
           >© 2022, made with
           <v-icon>mdi-heart-multiple</v-icon>
           by
@@ -48,7 +48,7 @@
 
 <script>
 export default {
-  name: "TheFooter",
+  name: "Footer",
 };
 </script>
 

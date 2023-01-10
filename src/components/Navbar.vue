@@ -103,7 +103,7 @@
 
 <script>
 export default {
-  name: "TheNavbar",
+  name: "Navbar",
   data() {
     return {
       menuLinks: [

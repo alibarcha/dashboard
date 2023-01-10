@@ -4,7 +4,7 @@
     temporary
     hide-overlay
     v-model="drawer"
-    class="px-3 pt-3 black"
+    class="px-3 pt-3  black"
   >
     <v-list>
       <v-list-item>
@@ -35,6 +35,25 @@
         <v-list-item-title>{{ link.text }}</v-list-item-title>
       </v-list-item>
     </v-list>
+    <!-- last link -->
+    <template #append>
+      <v-list class="py-0">
+        <v-list-item
+          link
+          class="white--text"
+          v-for="link in lastLink"
+          v-bind:key="link.icon"
+          :to="link.route"
+          active-class="success sidebarListItem"
+          style="border-color: #4caf50; border-radius: 4px"
+        >
+          <v-list-item-action>
+            <v-icon class="white--text">{{ link.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-title>{{ link.text }}</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </template>
   </v-navigation-drawer>
 </template>
 
@@ -44,18 +63,18 @@ export default {
   props: {
     menu: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   computed: {
     drawer: {
       get() {
-        return this.menu
+        return this.menu;
       },
       set(val) {
-        this.$emit("toggle", val)
-      }
-    }
+        this.$emit("toggle", val);
+      },
+    },
   },
   data() {
     return {
@@ -71,6 +90,8 @@ export default {
         { icon: "mdi-chart-bubble", text: "Icons", route: "/icons" },
         { icon: "mdi-google-maps", text: "Google Maps", route: "/googlemaps" },
         { icon: "mdi-bell", text: "Notifications", route: "/notifications" },
+      ],
+      lastLink: [
         {
           icon: "mdi-package-up",
           text: "Upgrade To Pro",
@@ -78,7 +99,7 @@ export default {
         },
       ],
     };
-  }
+  },
 };
 </script>
 

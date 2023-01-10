@@ -1,30 +1,30 @@
 <template>
   <v-app>
-    <AppBar @toggle="toggleSidebar" :class="`${drawer ? 'is-menu-open-toolbar' : ''}`" />
-    <TheNavbar :menu="drawer" @toggle="handleToggle" />
+    <Navbar @toggle="toggleSidebar" :class="`${drawer ? 'is-menu-open-toolbar' : ''}`" />
+    <Sidebar :menu="drawer" @toggle="handleToggle" />
     <v-main :class="`${drawer ? 'is-menu-open' : ''}`" style="background-color: #eee;">
       <div class="outer-wrapper px-sm-5 px-3">
         <router-view/>
       </div>
-      <TheFooter></TheFooter>
+      <Footer></Footer>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import TheNavbar from './components/TheNavbar.vue'
-import AppBar from './components/AppBar.vue'
-import TheFooter from './components/TheFooter.vue'
+import Sidebar from './components/Sidebar.vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 export default {
   name: 'App',
   components:{
-    TheNavbar,
-    TheFooter,
-    AppBar
+    Sidebar,
+    Footer,
+    Navbar
   },
   data() {
     return {
-      drawer: false
+      drawer: true
     }
   },
   methods: {
