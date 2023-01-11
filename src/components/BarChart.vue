@@ -1,15 +1,17 @@
 <template>
   <Bar 
-  id="my-chart-id" 
+  id="my-Barchart" 
   :options="chartOptions" 
   :data="chartData" 
-  
   
    />
 </template>
 
 <script>
 import { Bar } from "vue-chartjs";
+// import { Pie } from 'vue-chartjs'
+import { Colors } from 'chart.js';
+
 import {
   Chart as ChartJS,
   Title,
@@ -19,10 +21,10 @@ import {
   LinearScale,
 } from "chart.js";
 
-ChartJS.register(Title, Tooltip, BarElement, CategoryScale, LinearScale);
+ChartJS.register(Title, Tooltip, BarElement, CategoryScale, LinearScale,Colors);
 
 export default {
-  name: "CustomChart",
+  name: "BarChart",
   components: { Bar },
   data() {
     return {
@@ -49,22 +51,23 @@ export default {
             barThickness: 12,
             minBarLength: 8,
             maxBarThickness: 15,
-            
-           
+            colors:'red'
             
           },
         ],
       },
       chartOptions: {
         responsive: true,
-        maintainAspectRatio: false
+        maintainAspectRatio: false,
       },
+      
+      
     };
   },
 };
 </script>
 <style scoped>
-#my-chart-id{
+#my-BarChart{
   /* background: red; */
   color: white !important;
 }
