@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      drawer: true
+      drawer: false
     }
   },
   methods: {
@@ -39,11 +39,14 @@ export default {
 </script>
 
 <style scoped>
-.is-menu-open {
-  padding-left: 260px !important;
+
+@media screen and (min-width:500px){
+  .is-menu-open {
+    padding-left: 260px !important;
 }
 .is-menu-open-toolbar {
   left: 260px;
+}
 }
 .outer-wrapper {
   padding-top: 80px;

@@ -1,18 +1,19 @@
 <template>
-  <!-- <h1>Dashboard</h1> -->
-  <v-container fluid class="my-12" style="border: 1px solid red">
+  <!-- Dashboard -->
+  <v-container fluid class="my-12" >
     <v-row>
       <v-col lg="4" cols="12">
         <v-card elevation="2">
           <v-sheet
-            class="v-sheet--offset mx-auto"
-            color="success"
+            class="v-sheet--offset mx-auto py-3 px-4 white--text"
             elevation="6"
             max-width="calc(100% - 32px)"
             rounded="8px"
             min-height="200px"
+            style="background:rgb(233, 30, 99);border-color: rgb(233, 30, 99);"
           >
-            djkcvfjk 1
+            <!-- chart 1 -->
+             <CustomChart></CustomChart>
           </v-sheet>
           <v-card-text class="pt-0">
             <div class="text-h6 font-weight-light mb-2">Website Views</div>
@@ -38,7 +39,8 @@
             rounded="8px"
             min-height="200px"
           >
-            djkcvfjk 2
+            <!-- djkcvfjk 2 -->
+             
           </v-sheet>
           <v-card-text class="pt-0">
             <div class="text-h6 font-weight-light mb-2">Daily Sales</div>
@@ -86,12 +88,19 @@
         </v-card>
       </v-col>
     </v-row>
+
+
+
   </v-container>
 </template>
 
 <script>
+import CustomChart from '../components/CustomChart.vue'
 export default {
   name: "Dashboard",
+  components:{
+    CustomChart
+  }
 };
 </script>
 
