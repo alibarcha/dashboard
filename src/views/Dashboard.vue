@@ -93,7 +93,7 @@
     </v-row>
 
     <!-- mini cards -->
-    <v-row class="my-14">
+    <v-row class="my-12">
       <v-col lg="3" sm="6" cols="12" class="mt-sm-0 mt-6">
         <MiniCard
           NumberData="+245"
@@ -141,8 +141,40 @@
       </v-col>
     </v-row>
 
+    <!-- Main Cards -->
+
+    <v-row class="mb-10" style="border: 1px solid red">
+
+      <v-col lg="6" cols="12">
+
+        <MainCard SheetColor="warning">
+          <template #sheetData>
+            <div class="title font-weight-light"> Employees Stats </div>
+            <div class="subtitle-2 font-weight-light " style="color: hsla(0,0%,100%,.8);"> New employees on 15th September, 2016 </div>
+
+          </template>
+           <template #cardData>
+            cardData
+          </template>
+        </MainCard>
+
+      </v-col>
+
+       <v-col lg="6" cols="12" class="mt-lg-0 mt-12">
+
+          <MainCard SheetColor="success">
+          <template #sheetData>
+            sheetData
+          </template>
+           <template #cardData>
+            cardData
+          </template>
+        </MainCard>
 
 
+      </v-col>
+     
+    </v-row>
   </v-container>
 </template>
 
@@ -150,12 +182,14 @@
 import BarChart from "../components/BarChart.vue";
 import LineChart from "../components/LineChart.vue";
 import MiniCard from "../components/MiniCard.vue";
+import MainCard from "../components/MainCard.vue";
 export default {
   name: "Dashboard",
   components: {
     BarChart,
     LineChart,
     MiniCard,
+    MainCard,
   },
   data() {
     return {
