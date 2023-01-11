@@ -91,17 +91,71 @@
         </v-card>
       </v-col>
     </v-row>
+
+    <!-- mini cards -->
+    <v-row class="my-14">
+      <v-col lg="3" sm="6" cols="12" class="mt-sm-0 mt-6">
+        <MiniCard
+          NumberData="+245"
+          title="Followers"
+          SheetIcon="mdi-twitter"
+          FooterIcon="mdi-clock-outline"
+          FooterText="Just Updated"
+          SheetColor="primary"
+        >
+        </MiniCard>
+      </v-col>
+      <v-col lg="3" sm="6" cols="12" class="mt-sm-0 mt-6">
+        <MiniCard
+          NumberData="75.521"
+          title="Website Visits"
+          SheetIcon="mdi-chart-bar"
+          FooterIcon="mdi-tag"
+          FooterText="Tracked from Google Analytics"
+          SheetColor="success"
+        >
+        </MiniCard>
+      </v-col>
+      <v-col lg="3" sm="6" cols="12" class="mt-lg-0 mt-6">
+        <MiniCard
+          NumberData="$ 34,245"
+          title="Revenue"
+          SheetIcon="mdi-home-city"
+          FooterIcon="mdi-calendar-check"
+          FooterText="Last 24 Hours"
+          SheetColor="success"
+        >
+        </MiniCard>
+      </v-col>
+      <v-col lg="3" sm="6" cols="12" class="mt-lg-0 mt-6">
+        <MiniCard
+          NumberData="184"
+          title="Bookings"
+          SheetIcon="mdi-sofa"
+          FooterIcon="mdi-alert-rhombus"
+          FooterText="Get More Space..."
+          SheetColor="warning"
+          FooterIconColor="error--text"
+        >
+        </MiniCard>
+      </v-col>
+    </v-row>
+
+
+
   </v-container>
 </template>
 
 <script>
 import BarChart from "../components/BarChart.vue";
 import LineChart from "../components/LineChart.vue";
+import MiniCard from "../components/MiniCard.vue";
 export default {
   name: "Dashboard",
   components: {
     BarChart,
     LineChart,
+    MiniCard,
   },
   data() {
     return {
@@ -121,11 +175,11 @@ export default {
         ],
       },
       chartData2: {
-        labels: ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am",'9am'],
+        labels: ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am", "9am"],
         datasets: [
           {
             label: " Data ",
-            data: [180,700,400,280,250,230,210,190],
+            data: [180, 700, 400, 280, 250, 230, 210, 190],
             backgroundColor: "hsla(0,0%,100%,.8)",
             borderColor: "hsla(0,0%,100%,.8)",
             tension: 0.1,

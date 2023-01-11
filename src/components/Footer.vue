@@ -1,5 +1,5 @@
 <template>
-  <v-footer tile padless fixed absolute >
+  <v-footer tile padless fixed absolute>
     <v-container>
       <v-row>
         <v-col md="6" cols="12" class="text-lg-start  text-center">
@@ -52,6 +52,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
 
 </style>
