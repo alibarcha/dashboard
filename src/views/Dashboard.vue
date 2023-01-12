@@ -143,7 +143,7 @@
 
     <!-- Main Cards -->
 
-    <v-row class="mb-10" style="border: 1px solid red">
+    <v-row class="mb-10">
       <v-col lg="6" cols="12">
         <MainCard SheetColor="warning">
           <template #sheetData>
