@@ -23,6 +23,7 @@
     <v-row class="my-10 py-0">
       <v-col>
         <v-card elevation="2" class="cardWrapper">
+          <div class="cardTop">
           <v-sheet
             class="v-sheet--offset white--text"
             elevation="6"
@@ -33,6 +34,8 @@
           >
             <v-icon>mdi-clipboard-text</v-icon>
           </v-sheet>
+            <div class="title font-weight-light flex ml-8 mt-3">Simple Table</div>
+             </div>
           <v-card-text class="pt-0">
             <v-data-table
               :headers="headers"
@@ -50,6 +53,7 @@
       <v-row class="my-10 py-0">
       <v-col>
         <v-card elevation="2" class="cardWrapper" dark>
+          <div class="cardTop">
           <v-sheet
             class="v-sheet--offset white--text"
             elevation="6"
@@ -58,8 +62,10 @@
             min-height="100px"
             color="success"
           >
-            <v-icon>mdi-clipboard-plus-outline</v-icon>
+            <v-icon>mdi-clipboard-plus </v-icon>
           </v-sheet>
+           <div class="title font-weight-light flex ml-8 mt-3">Table on Dark Background</div>
+          </div>
           <v-card-text class="pt-0">
             <v-data-table
               :headers="headers"
@@ -87,11 +93,12 @@ export default {
         {
           text: "ID",
           value: "id",
+           class: "success--text title font-weight-light"
         },
-        { text: "Name", value: "name" },
-        { text: "Country", value: "country" },
-        { text: "City", value: "city" },
-        { text: "Salary", value: "salary" },
+        { text: "Name", value: "name", class: "success--text title font-weight-light" },
+        { text: "Country", value: "country" , class: "success--text title font-weight-light"},
+        { text: "City", value: "city", class: "success--text title font-weight-light" },
+        { text: "Salary", value: "salary", class: "success--text title font-weight-light" },
       ],
       tableData: [
         {
@@ -142,6 +149,9 @@ export default {
 };
 </script>
 <style scoped>
+.cardTop{
+  display: flex;
+}
 .v-sheet--offset {
   top: -20px;
   position: relative;
@@ -150,6 +160,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100px;
 }
 .v-sheet--offset i {
   font-size: 35px;
