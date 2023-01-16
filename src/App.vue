@@ -2,11 +2,13 @@
   <v-app>
     <Navbar @toggle="toggleSidebar" :class="`${drawer ? 'is-menu-open-toolbar' : ''}`" />
     <Sidebar :menu="drawer" @toggle="handleToggle" />
-    <v-main :class="`${drawer ? 'is-menu-open' : ''}`" style="background-color: #eee;">
+      <SettingSidebar @changeTheme="changeTheme"></SettingSidebar>
+    <v-main :class="` ${drawer ? 'is-menu-open' : ''} myColorTheme `"  id="main">
       <div class="outer-wrapper px-sm-5 px-3">
         <router-view/>
       </div>
       <Footer></Footer>
+
     </v-main>
   </v-app>
 </template>
@@ -15,16 +17,19 @@
 import Sidebar from './components/Sidebar.vue'
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
+import SettingSidebar from './components/SettingSidebar.vue'
 export default {
   name: 'App',
   components:{
     Sidebar,
     Footer,
-    Navbar
+    Navbar,
+    SettingSidebar
   },
   data() {
     return {
-      drawer: false
+      drawer: false,
+      myColorTheme:''
     }
   },
   methods: {
@@ -34,11 +39,17 @@ export default {
     handleToggle(val) {
       this.drawer = val;
     },
+
+   
   },
+
 };
 </script>
 
 <style scoped>
+.theme--light .myColorTheme {
+   background-color: #eee;
+}
 
 @media screen and (min-width:900px){
   .is-menu-open {

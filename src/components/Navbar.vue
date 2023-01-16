@@ -2,7 +2,7 @@
   <v-toolbar
     elevation="0"
     text
-    class="grey lighten-3 ps-sm-5 ps-2 app-toolbar"
+    class="ps-sm-5 ps-2 app-toolbar"
     height="75px"
     absolute
   >
@@ -127,6 +127,9 @@ export default {
 </script>
 
 <style scoped>
+.theme--light .app-toolbar {
+   background-color: #eee;
+}
 .app-toolbar {
   left: 0;
   right: 0;
