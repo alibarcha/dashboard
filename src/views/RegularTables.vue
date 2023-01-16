@@ -19,52 +19,24 @@
         >
       </v-col>
     </v-row>
-<!-- table 1 -->
+    <!-- table 1 -->
     <v-row class="my-10 py-0">
       <v-col>
         <v-card elevation="2" class="cardWrapper">
           <div class="cardTop">
-          <v-sheet
-            class="v-sheet--offset white--text"
-            elevation="6"
-            max-width="100px"
-            rounded="8px"
-            min-height="100px"
-            color="success"
-          >
-            <v-icon>mdi-clipboard-text</v-icon>
-          </v-sheet>
-            <div class="title font-weight-light flex ml-8 mt-3">Simple Table</div>
-             </div>
-          <v-card-text class="pt-0">
-            <v-data-table
-              :headers="headers"
-              :items="tableData"
-              :items-per-page="6"
-              class="elevation-0 font-weight-light"
-              hide-default-footer
-              disable-sort
-            ></v-data-table>
-          </v-card-text>
-        </v-card>
-      </v-col>
-    </v-row>
-<!-- table 2 -->
-      <v-row class="my-10 py-0">
-      <v-col>
-        <v-card elevation="2" class="cardWrapper" dark>
-          <div class="cardTop">
-          <v-sheet
-            class="v-sheet--offset white--text"
-            elevation="6"
-            max-width="100px"
-            rounded="8px"
-            min-height="100px"
-            color="success"
-          >
-            <v-icon>mdi-clipboard-plus </v-icon>
-          </v-sheet>
-           <div class="title font-weight-light flex ml-8 mt-3">Table on Dark Background</div>
+            <v-sheet
+              class="v-sheet--offset white--text"
+              elevation="6"
+              max-width="100px"
+              rounded="8px"
+              min-height="100px"
+              color="success"
+            >
+              <v-icon>mdi-clipboard-text</v-icon>
+            </v-sheet>
+            <div class="title font-weight-light flex ml-8 mt-3">
+              Simple Table
+            </div>
           </div>
           <v-card-text class="pt-0">
             <v-data-table
@@ -79,7 +51,38 @@
         </v-card>
       </v-col>
     </v-row>
-
+    <!-- table 2 -->
+    <v-row class="my-10 py-0">
+      <v-col>
+        <v-card elevation="2" class="cardWrapper" dark>
+          <div class="cardTop">
+            <v-sheet
+              class="v-sheet--offset white--text"
+              elevation="6"
+              max-width="100px"
+              rounded="8px"
+              min-height="100px"
+              color="success"
+            >
+              <v-icon>mdi-clipboard-plus </v-icon>
+            </v-sheet>
+            <div class="title font-weight-light flex ml-8 mt-3">
+              Table on Dark Background
+            </div>
+          </div>
+          <v-card-text class="pt-0">
+            <v-data-table
+              :headers="headers"
+              :items="tableData"
+              :items-per-page="6"
+              class="elevation-0 font-weight-light"
+              hide-default-footer
+              disable-sort
+            ></v-data-table>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -93,12 +96,28 @@ export default {
         {
           text: "ID",
           value: "id",
-           class: "success--text title font-weight-light"
+          class: "success--text title font-weight-light",
         },
-        { text: "Name", value: "name", class: "success--text title font-weight-light" },
-        { text: "Country", value: "country" , class: "success--text title font-weight-light"},
-        { text: "City", value: "city", class: "success--text title font-weight-light" },
-        { text: "Salary", value: "salary", class: "success--text title font-weight-light" },
+        {
+          text: "Name",
+          value: "name",
+          class: "success--text title font-weight-light",
+        },
+        {
+          text: "Country",
+          value: "country",
+          class: "success--text title font-weight-light",
+        },
+        {
+          text: "City",
+          value: "city",
+          class: "success--text title font-weight-light",
+        },
+        {
+          text: "Salary",
+          value: "salary",
+          class: "success--text title font-weight-light",
+        },
       ],
       tableData: [
         {
@@ -149,7 +168,7 @@ export default {
 };
 </script>
 <style scoped>
-.cardTop{
+.cardTop {
   display: flex;
 }
 .v-sheet--offset {

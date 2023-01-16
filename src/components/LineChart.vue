@@ -44,18 +44,18 @@ export default {
       chartOptions: {
         responsive: true,
         maintainAspectRatio: false,
-         scales:{
-          x:{
-            ticks:{
-              color:'hsla(0,0%,100%,.8)'
-            }
+        scales: {
+          x: {
+            ticks: {
+              color: "hsla(0,0%,100%,.8)",
+            },
           },
-          y:{
-              ticks:{
-              color:'hsla(0,0%,100%,.8)'
-            }
-          }
-        }
+          y: {
+            ticks: {
+              color: "hsla(0,0%,100%,.8)",
+            },
+          },
+        },
       },
     };
   },
@@ -67,5 +67,4 @@ export default {
 };
 </script>
 <style scoped>
-
 </style>

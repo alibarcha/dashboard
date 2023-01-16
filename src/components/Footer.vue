@@ -2,7 +2,7 @@
   <v-footer tile padless fixed absolute>
     <v-container>
       <v-row>
-        <v-col md="6" cols="12" class="text-lg-start  text-center">
+        <v-col md="6" cols="12" class="text-lg-start text-center">
           <a
             target="_blank"
             href="#"
@@ -25,7 +25,7 @@
           <a
             target="_blank"
             href="#"
-            class="grey--text text--darken-3  text-decoration-none ps-5"
+            class="grey--text text--darken-3 text-decoration-none ps-5"
             >LICENSES</a
           >
         </v-col>
@@ -53,6 +53,4 @@ export default {
 </script>
 
 <style scoped>
-
-
 </style>

@@ -1,36 +1,38 @@
 <template>
   <v-app>
-    <Navbar @toggle="toggleSidebar" :class="`${drawer ? 'is-menu-open-toolbar' : ''}`" />
+    <Navbar
+      @toggle="toggleSidebar"
+      :class="`${drawer ? 'is-menu-open-toolbar' : ''}`"
+    />
     <Sidebar :menu="drawer" @toggle="handleToggle" />
-      <DarkLight></DarkLight>
-    <v-main :class="` ${drawer ? 'is-menu-open' : ''} myColorTheme `"  id="main">
+    <DarkLight></DarkLight>
+    <v-main :class="` ${drawer ? 'is-menu-open' : ''} myColorTheme `" id="main">
       <div class="outer-wrapper px-sm-5 px-3">
-        <router-view/>
+        <router-view />
       </div>
       <Footer></Footer>
-
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Sidebar from './components/Sidebar.vue'
-import Navbar from './components/Navbar.vue'
-import Footer from './components/Footer.vue'
-import DarkLight from './components/DarkLight.vue'
+import Sidebar from "./components/Sidebar.vue";
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
+import DarkLight from "./components/DarkLight.vue";
 export default {
-  name: 'App',
-  components:{
+  name: "App",
+  components: {
     Sidebar,
     Footer,
     Navbar,
-    DarkLight
+    DarkLight,
   },
   data() {
     return {
       drawer: false,
-      myColorTheme:''
-    }
+      myColorTheme: "",
+    };
   },
   methods: {
     toggleSidebar() {
@@ -39,25 +41,22 @@ export default {
     handleToggle(val) {
       this.drawer = val;
     },
-
-   
   },
-
 };
 </script>
 
 <style scoped>
 .theme--light .myColorTheme {
-   background-color: #eee;
+  background-color: #eee;
 }
 
-@media screen and (min-width:900px){
+@media screen and (min-width: 900px) {
   .is-menu-open {
     padding-left: 260px !important;
-}
-.is-menu-open-toolbar {
-  left: 260px;
-}
+  }
+  .is-menu-open-toolbar {
+    left: 260px;
+  }
 }
 .outer-wrapper {
   padding-top: 80px;

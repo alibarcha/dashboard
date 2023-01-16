@@ -17,7 +17,9 @@
         <h2 class="font-weight-light">{{ NumberData }}</h2>
       </div>
       <v-divider class="my-2"></v-divider>
-      <v-icon :class="`mr-2 ${FooterIconColor}`" small> {{ FooterIcon }}</v-icon>
+      <v-icon :class="`mr-2 ${FooterIconColor}`" small>
+        {{ FooterIcon }}</v-icon
+      >
       <span class="text-caption grey--text font-weight-light">
         {{ FooterText }}</span
       >
@@ -49,14 +51,14 @@ export default {
       type: String,
       default: "",
     },
-    SheetColor:{
-        type:String,
-        default:'warning'
+    SheetColor: {
+      type: String,
+      default: "warning",
     },
-    FooterIconColor:{
-        type:String,
-        default:''
-    }
+    FooterIconColor: {
+      type: String,
+      default: "",
+    },
   },
 };
 </script>

@@ -33,14 +33,7 @@
       <v-icon class="grey--text lighten-3"> mdi-magnify </v-icon>
     </v-btn>
 
-    <v-btn
-      elevation="0"
-      class="gray"
-      width="30px"
-      height="40px"
-      small
-      to="/"
-    >
+    <v-btn elevation="0" class="gray" width="30px" height="40px" small to="/">
       <v-icon>mdi-view-dashboard</v-icon>
     </v-btn>
 
@@ -128,7 +121,7 @@ export default {
 
 <style scoped>
 .theme--light .app-toolbar {
-   background-color: #eee;
+  background-color: #eee;
 }
 .app-toolbar {
   left: 0;

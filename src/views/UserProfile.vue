@@ -83,9 +83,7 @@
               <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John" />
             </v-avatar>
             <h6 class="body-1 grey--text">CEO / CO-FOUNDER</h6>
-            <h4 class="title font-weight-light mb-3">
-              Alec Thompson
-            </h4>
+            <h4 class="title font-weight-light mb-3">Alec Thompson</h4>
             <p class="font-weight-light subtitle-1 grey--text">
               Don't be scared of the truth because we need to restart the human
               foundation in truth And I love you like Kanye loves Kanye I love
