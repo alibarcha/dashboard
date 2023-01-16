@@ -154,6 +154,7 @@
                 top
                 color="error px-5"
                 height="80px"
+                timeout="4000"
               >
                 Welcome to
                 <span class="text-uppercase caption font-weight-bold"
@@ -185,6 +186,7 @@
                 top
                 color="info px-5"
                 height="80px"
+                timeout="4000"
               >
                 Welcome to
                 <span class="text-uppercase caption font-weight-bold"
@@ -215,6 +217,7 @@
                 top
                 color="info px-5"
                 height="80px"
+                timeout="4000"
               >
                 Welcome to
                 <span class="text-uppercase caption font-weight-bold"
@@ -248,6 +251,7 @@
                 bottom
                 color="pink px-5"
                 height="80px"
+                timeout="4000"
               >
                 Welcome to
                 <span class="text-uppercase caption font-weight-bold"
@@ -279,6 +283,7 @@
                 bottom
                 color="info px-5"
                 height="80px"
+                timeout="3000"
               >
                 Welcome to
                 <span class="text-uppercase caption font-weight-bold"
@@ -298,7 +303,7 @@
                 large
                 color="purple white--text"
                 block
-                @click="snackbar5 = true"
+                @click="snackbar6 = true"
               >
                 BOTTOM RIGHT
               </v-btn>
@@ -309,6 +314,7 @@
                 right
                 color="error px-5"
                 height="80px"
+                timeout="3000"
               >
                 Welcome to
                 <span class="text-uppercase caption font-weight-bold"
@@ -334,9 +340,47 @@
                 color="purple white--text"
                 block
                 rounded
+                @click.stop="dialog1 = true"
               >
                 CLASSIC DIALOG
               </v-btn>
+
+              <!-- dialoge 1 -->
+              <v-dialog v-model="dialog1" max-width="500">
+                <v-card>
+                  <v-card-title class="text-center">
+                    <v-card-subtitle class="text-center ps-0">
+                      Dialog Title</v-card-subtitle
+                    >
+                    <v-spacer></v-spacer>
+                    <v-icon
+                      size="20"
+                      class="grey--text"
+                      @click="dialog1 = false"
+                      >mdi-close</v-icon
+                    >
+                  </v-card-title>
+                  <v-card-text class="subtitle-1 p-0">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean. A small
+                    river named Duden flows by their place and supplies it with
+                    the necessary regelialia. It is a paradisematic country, in
+                    which roasted parts of sentences fly into your mouth. Even
+                    the all-powerful Pointing has no control about the blind
+                    texts it is an almost unorthographic life One day however a
+                    small line of blind text by the name of Lorem Ipsum decided
+                    to leave for the far World of Grammar.
+                  </v-card-text>
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+                    <v-btn color="error " text @click="dialog1 = false">
+                      Close
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-dialog>
             </v-col>
 
             <v-col md="2" sm="6" cols="12">
@@ -346,9 +390,47 @@
                 color="primary white--text "
                 block
                 rounded
+                @click.stop="dialog2 = true"
               >
                 NOTICE MODAL
               </v-btn>
+
+              <!-- dialoge 2 -->
+              <v-dialog v-model="dialog2" max-width="500">
+                <v-card>
+                  <v-card-title class="text-center">
+                    <v-card-subtitle class="text-center ps-0">
+                      Dialog Title</v-card-subtitle
+                    >
+                    <v-spacer></v-spacer>
+                    <v-icon
+                      size="20"
+                      class="grey--text"
+                      @click="dialog2 = false"
+                      >mdi-close</v-icon
+                    >
+                  </v-card-title>
+                  <v-card-text class="subtitle-1 p-0">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean. A small
+                    river named Duden flows by their place and supplies it with
+                    the necessary regelialia. It is a paradisematic country, in
+                    which roasted parts of sentences fly into your mouth. Even
+                    the all-powerful Pointing has no control about the blind
+                    texts it is an almost unorthographic life One day however a
+                    small line of blind text by the name of Lorem Ipsum decided
+                    to leave for the far World of Grammar.
+                  </v-card-text>
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+                    <v-btn color="error " text @click="dialog2 = false">
+                      Close
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-dialog>
             </v-col>
             <v-col md="2" sm="6" cols="12">
               <v-btn
@@ -357,9 +439,37 @@
                 color="pink white--text "
                 block
                 rounded
+                @click.stop="dialog3 = true"
               >
                 SMALL ALERT MODAL
               </v-btn>
+
+              <!-- dialoge 3 -->
+              <v-dialog v-model="dialog3" max-width="250">
+                <v-card>
+                  <v-card-title class="text-center">
+                    <v-card-subtitle class="text-center ps-0">
+                      Are you sure?</v-card-subtitle
+                    >
+                    <v-spacer></v-spacer>
+                    <v-icon
+                      size="20"
+                      class="grey--text"
+                      @click="dialog3 = false"
+                      >mdi-close</v-icon
+                    >
+                  </v-card-title>
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+                    <v-btn color="success " text @click="dialog3 = false">
+                      NEVERMIND
+                    </v-btn>
+                    <v-btn color="success" text @click="dialog3 = false">
+                      YES
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-dialog>
             </v-col>
           </v-row>
         </v-card>
@@ -379,6 +489,10 @@ export default {
       snackbar4: false,
       snackbar5: false,
       snackbar6: false,
+
+      dialog1: false,
+      dialog2: false,
+      dialog3: false,
     };
   },
 };
