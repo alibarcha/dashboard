@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
 
-@media screen and (min-width:500px){
+@media screen and (min-width:900px){
   .is-menu-open {
     padding-left: 260px !important;
 }
