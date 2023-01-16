@@ -67,7 +67,7 @@
         <v-card elevation="2">
           <v-sheet
             class="v-sheet--offset mx-auto py-5 px-4 white--text"
-            color="success"
+            color="primary"
             elevation="6"
             max-width="calc(100% - 32px)"
             rounded="8px"

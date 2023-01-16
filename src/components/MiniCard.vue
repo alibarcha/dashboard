@@ -14,7 +14,7 @@
     <v-card-text class="pt-0">
       <div class="cardContent">
         <div class="title font-weight-light grey--text">{{ title }}</div>
-        <h2 class="font-weight-light black--text">{{ NumberData }}</h2>
+        <h2 class="font-weight-light">{{ NumberData }}</h2>
       </div>
       <v-divider class="my-2"></v-divider>
       <v-icon :class="`mr-2 ${FooterIconColor}`" small> {{ FooterIcon }}</v-icon>

@@ -11,7 +11,7 @@
             href="https://vuetifyjs.com/components/icons"
             rel="noopener"
             target="_blank"
-            class="primary--text"
+            class="secondary--text"
             style="text-decoration: none"
           >
             full documentation

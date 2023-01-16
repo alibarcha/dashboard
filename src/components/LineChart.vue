@@ -67,8 +67,5 @@ export default {
 };
 </script>
 <style scoped>
-#my-LineChart {
-  color: white !important;
-  /* background: white; */
-}
+
 </style>

@@ -11,7 +11,7 @@
             href="https://vuetifyjs.com/components/alerts"
             rel="noopener"
             target="_blank"
-            class="primary--text"
+            class="secondary--text"
             style="text-decoration: none"
           >
             full documentation
@@ -139,9 +139,9 @@
           <v-row class="text-center justify-center">
             <v-col md="2" sm="6" cols="12">
               <v-btn
-                class="pink font-weight-light body-2"
+                class="font-weight-light body-2"
                 large
-                color="purple white--text"
+                color="secondary white--text"
                 block
                 @click="snackbar1 = true"
               >
@@ -171,9 +171,9 @@
 
             <v-col md="2" sm="6" cols="12">
               <v-btn
-                class="pink font-weight-light body-2"
+                class="font-weight-light body-2"
                 large
-                color="purple white--text "
+                color="secondary white--text "
                 block
                 @click="snackbar2 = true"
               >
@@ -202,9 +202,9 @@
             </v-col>
             <v-col md="2" sm="6" cols="12">
               <v-btn
-                class="pink font-weight-light body-2"
+                class="font-weight-light body-2"
                 large
-                color="purple white--text "
+                color="secondary white--text "
                 block
                 @click="snackbar3 = true"
               >
@@ -236,9 +236,9 @@
           <v-row class="text-center justify-center">
             <v-col md="2" sm="6" cols="12">
               <v-btn
-                class="pink font-weight-light body-2"
+                class="font-weight-light body-2"
                 large
-                color="purple white--text "
+                color="secondary white--text "
                 block
                 @click="snackbar4 = true"
               >
@@ -268,9 +268,9 @@
 
             <v-col md="2" sm="6" cols="12">
               <v-btn
-                class="pink body-2"
+                class="body-2"
                 large
-                color="purple white--text"
+                color="secondary white--text"
                 block
                 @click="snackbar5 = true"
               >
@@ -299,9 +299,9 @@
             </v-col>
             <v-col md="2" sm="6" cols="12">
               <v-btn
-                class="pink font-weight-light body-2"
+                class="font-weight-light body-2"
                 large
-                color="purple white--text"
+                color="secondary white--text"
                 block
                 @click="snackbar6 = true"
               >
@@ -335,9 +335,9 @@
           <v-row class="text-center justify-center mb-5">
             <v-col md="2" sm="6" cols="12">
               <v-btn
-                class="pink font-weight-light body-2"
+                class="font-weight-light body-2"
                 large
-                color="purple white--text"
+                color="secondary white--text"
                 block
                 rounded
                 @click.stop="dialog1 = true"
@@ -385,7 +385,7 @@
 
             <v-col md="2" sm="6" cols="12">
               <v-btn
-                class="pink font-weight-light body-2"
+                class="font-weight-light body-2"
                 large
                 color="primary white--text "
                 block
@@ -434,7 +434,7 @@
             </v-col>
             <v-col md="2" sm="6" cols="12">
               <v-btn
-                class="pink font-weight-light body-2"
+                class="font-weight-light body-2"
                 large
                 color="pink white--text "
                 block
