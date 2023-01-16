@@ -1,23 +1,25 @@
 <template>
   <button class="Settingbtn" @click="changeTheme">
-    <v-icon  dark > {{myTheme ? 'mdi-white-balance-sunny' : 'mdi-weather-night'}}</v-icon>
+    <v-icon dark>
+      {{ myTheme ? "mdi-white-balance-sunny" : "mdi-weather-night" }}</v-icon
+    >
   </button>
 </template>
 
 <script>
 export default {
-  name: "SettingSidebar",
-  data(){
+  name: "DarkLight",
+  data() {
     return {
-        myTheme:false
-    }
+      myTheme: false,
+    };
   },
-  methods:{
-    changeTheme(){
-          this.myTheme=!this.myTheme
-        this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
-    }
-  }
+  methods: {
+    changeTheme() {
+      this.myTheme = !this.myTheme;
+      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+    },
+  },
 };
 </script>
 
@@ -28,8 +30,8 @@ export default {
   border-color: rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 115px;
-    right: 0;
-  border-top-left-radius:8px ;
+  right: 0;
+  border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   height: 38px;
   z-index: 999;

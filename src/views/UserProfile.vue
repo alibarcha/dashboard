@@ -83,7 +83,7 @@
               <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John" />
             </v-avatar>
             <h6 class="body-1 grey--text">CEO / CO-FOUNDER</h6>
-            <h4 class="title font-weight-light mb-3 black--text">
+            <h4 class="title font-weight-light mb-3">
               Alec Thompson
             </h4>
             <p class="font-weight-light subtitle-1 grey--text">

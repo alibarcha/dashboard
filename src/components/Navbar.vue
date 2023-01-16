@@ -35,7 +35,7 @@
 
     <v-btn
       elevation="0"
-      class="grey lighten-3"
+      class="gray"
       width="30px"
       height="40px"
       small
@@ -58,12 +58,12 @@
           overlap
           bordered
           content="5"
-          offset-x="32"
-          offset-y="23"
+          offset-x="30"
+          offset-y="22"
         >
           <v-btn
             elevation="0"
-            class="grey lighten-3 mx-2"
+            class="gray mx-2"
             width="30px"
             height="40px"
             small
@@ -90,7 +90,7 @@
 
     <v-btn
       elevation="0"
-      class="grey lighten-3"
+      class="gray"
       width="30px"
       height="40px"
       small

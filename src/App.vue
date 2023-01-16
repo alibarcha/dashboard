@@ -2,7 +2,7 @@
   <v-app>
     <Navbar @toggle="toggleSidebar" :class="`${drawer ? 'is-menu-open-toolbar' : ''}`" />
     <Sidebar :menu="drawer" @toggle="handleToggle" />
-      <SettingSidebar @changeTheme="changeTheme"></SettingSidebar>
+      <DarkLight></DarkLight>
     <v-main :class="` ${drawer ? 'is-menu-open' : ''} myColorTheme `"  id="main">
       <div class="outer-wrapper px-sm-5 px-3">
         <router-view/>
@@ -17,14 +17,14 @@
 import Sidebar from './components/Sidebar.vue'
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
-import SettingSidebar from './components/SettingSidebar.vue'
+import DarkLight from './components/DarkLight.vue'
 export default {
   name: 'App',
   components:{
     Sidebar,
     Footer,
     Navbar,
-    SettingSidebar
+    DarkLight
   },
   data() {
     return {

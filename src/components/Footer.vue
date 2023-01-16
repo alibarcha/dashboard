@@ -25,7 +25,7 @@
           <a
             target="_blank"
             href="#"
-            class="grey--text text--darken-3 text-decoration-none ps-5"
+            class="grey--text text--darken-3  text-decoration-none ps-5"
             >LICENSES</a
           >
         </v-col>
