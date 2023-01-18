@@ -1,5 +1,5 @@
 <template>
-  <v-footer tile padless fixed absolute>
+  <v-footer tile padless>
     <v-container>
       <v-row>
         <v-col md="6" cols="12" class="text-lg-start text-center">

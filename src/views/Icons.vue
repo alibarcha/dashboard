@@ -4,8 +4,8 @@
   <v-container fluid class="my-12">
     <v-row>
       <v-col class="text-center py-0">
-        <h1 class="font-weight-light mb-1 headline">Vuetify Icons</h1>
-        <span class="font-weight-light subtitle-1">
+        <h1 class="font- mb-1 headline">Vuetify Icons</h1>
+        <span class="font- subtitle-1">
           Please checkout the
           <a
             href="https://vuetifyjs.com/components/icons"
@@ -32,8 +32,8 @@
             min-height="80px"
             color="success"
           >
-            <p class="body-1 font-weight-light mb-0">Material Design Icons</p>
-            <div class="body-2 font-weight-light">
+            <p class="body-1 font- mb-0">Material Design Icons</p>
+            <div class="body-2 font-">
               See all available
               <a
                 href="https://materialdesignicons.com/"
@@ -46,7 +46,7 @@
           </v-sheet>
 
           <v-card-text class="pt-0 pb-8">
-            <!-- icons -->
+            <!-- --------icons------------ -->
             <div class="row align-center justify-center">
               <div class="ma-2 col">
                 <i
@@ -54,7 +54,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-access-point theme--light"
+                  class="v-icon notranslate mdi mdi-access-point"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -64,12 +64,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-access-point-network
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-access-point-network"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -79,7 +74,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account theme--light"
+                  class="v-icon notranslate mdi mdi-account"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -89,7 +84,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-alert theme--light"
+                  class="v-icon notranslate mdi mdi-account-alert"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -99,7 +94,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-box theme--light"
+                  class="v-icon notranslate mdi mdi-account-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -109,12 +104,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-box-multiple
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-box-multiple"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -124,12 +114,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-box-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-box-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -139,12 +124,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-card-details
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-card-details"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -154,7 +134,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-check theme--light"
+                  class="v-icon notranslate mdi mdi-account-check"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -164,7 +144,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-circle theme--light"
+                  class="v-icon notranslate mdi mdi-account-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -174,12 +154,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-convert
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-convert"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -189,7 +164,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-edit theme--light"
+                  class="v-icon notranslate mdi mdi-account-edit"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -199,7 +174,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-group theme--light"
+                  class="v-icon notranslate mdi mdi-account-group"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -209,7 +184,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-heart theme--light"
+                  class="v-icon notranslate mdi mdi-account-heart"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -219,7 +194,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-key theme--light"
+                  class="v-icon notranslate mdi mdi-account-key"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -229,12 +204,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-location
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-location"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -244,7 +214,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-minus theme--light"
+                  class="v-icon notranslate mdi mdi-account-minus"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -254,12 +224,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-multiple
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-multiple"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -269,12 +234,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-multiple-check
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-multiple-check"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -284,12 +244,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-multiple-minus
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-multiple-minus"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -299,12 +254,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-multiple-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-multiple-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -314,12 +264,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-multiple-plus
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-multiple-plus"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -333,7 +278,6 @@
                     v-icon
                     notranslate
                     mdi mdi-account-multiple-plus-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -344,12 +288,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-network
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-network"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -359,7 +298,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-off theme--light"
+                  class="v-icon notranslate mdi mdi-account-off"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -369,12 +308,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -384,7 +318,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-plus theme--light"
+                  class="v-icon notranslate mdi mdi-account-plus"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -394,12 +328,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-plus-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-plus-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -409,7 +338,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-remove theme--light"
+                  class="v-icon notranslate mdi mdi-account-remove"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -419,7 +348,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-search theme--light"
+                  class="v-icon notranslate mdi mdi-account-search"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -429,12 +358,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-search-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-search-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -444,12 +368,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-settings
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-settings"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -459,12 +378,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-account-settings-variant
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-account-settings-variant"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -474,7 +388,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-star theme--light"
+                  class="v-icon notranslate mdi mdi-account-star"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -484,7 +398,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-account-switch theme--light"
+                  class="v-icon notranslate mdi mdi-account-switch"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -494,7 +408,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-accusoft theme--light"
+                  class="v-icon notranslate mdi mdi-accusoft"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -504,7 +418,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-adjust theme--light"
+                  class="v-icon notranslate mdi mdi-adjust"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -514,7 +428,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-adobe theme--light"
+                  class="v-icon notranslate mdi mdi-adobe"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -524,12 +438,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-air-conditioner
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-air-conditioner"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -539,7 +448,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-airballoon theme--light"
+                  class="v-icon notranslate mdi mdi-airballoon"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -549,7 +458,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-airplane theme--light"
+                  class="v-icon notranslate mdi mdi-airplane"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -559,12 +468,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-airplane-landing
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-airplane-landing"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -574,7 +478,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-airplane-off theme--light"
+                  class="v-icon notranslate mdi mdi-airplane-off"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -584,12 +488,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-airplane-takeoff
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-airplane-takeoff"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -599,7 +498,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-airplay theme--light"
+                  class="v-icon notranslate mdi mdi-airplay"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -609,7 +508,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-airport theme--light"
+                  class="v-icon notranslate mdi mdi-airport"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -619,7 +518,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alarm theme--light"
+                  class="v-icon notranslate mdi mdi-alarm"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -629,7 +528,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alarm-bell theme--light"
+                  class="v-icon notranslate mdi mdi-alarm-bell"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -639,7 +538,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alarm-check theme--light"
+                  class="v-icon notranslate mdi mdi-alarm-check"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -649,7 +548,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alarm-light theme--light"
+                  class="v-icon notranslate mdi mdi"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -659,7 +558,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alarm-multiple theme--light"
+                  class="v-icon notranslate mdi mdi-alarm-multiple"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -669,7 +568,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alarm-off theme--light"
+                  class="v-icon notranslate mdi mdi-alarm-off"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -679,7 +578,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alarm-plus theme--light"
+                  class="v-icon notranslate mdi mdi-alarm-plus"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -689,7 +588,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alarm-snooze theme--light"
+                  class="v-icon notranslate mdi mdi-alarm-snooze"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -699,7 +598,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-album theme--light"
+                  class="v-icon notranslate mdi mdi-album"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -709,7 +608,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alert theme--light"
+                  class="v-icon notranslate mdi mdi-alert"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -719,7 +618,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alert-box theme--light"
+                  class="v-icon notranslate mdi mdi-alert-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -729,7 +628,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alert-circle theme--light"
+                  class="v-icon notranslate mdi mdi-alert-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -739,12 +638,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-alert-circle-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-alert-circle-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -754,7 +648,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alert-decagram theme--light"
+                  class="v-icon notranslate mdi mdi-alert-decagram"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -764,7 +658,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alert-octagon theme--light"
+                  class="v-icon notranslate mdi mdi-alert-octagon"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -774,7 +668,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alert-octagram theme--light"
+                  class="v-icon notranslate mdi mdi-alert-octagram"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -784,7 +678,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alert-outline theme--light"
+                  class="v-icon notranslate mdi mdi-alert-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -794,7 +688,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alien theme--light"
+                  class="v-icon notranslate mdi mdi-alien"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -804,7 +698,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-all-inclusive theme--light"
+                  class="v-icon notranslate mdi mdi-all-inclusive"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -814,7 +708,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alpha theme--light"
+                  class="v-icon notranslate mdi mdi-alpha"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -824,7 +718,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-alphabetical theme--light"
+                  class="v-icon notranslate mdi mdi-alphabetical"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -834,7 +728,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-altimeter theme--light"
+                  class="v-icon notranslate mdi mdi-altimeter"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -844,7 +738,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-amazon theme--light"
+                  class="v-icon notranslate mdi mdi-amazon"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -854,7 +748,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-amazon-alexa theme--light"
+                  class="v-icon notranslate mdi mdi-amazon-alexa"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -864,7 +758,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-amazon-drive theme--light"
+                  class="v-icon notranslate mdi mdi-amazon-drive"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -874,7 +768,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-ambulance theme--light"
+                  class="v-icon notranslate mdi mdi-ambulance"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -884,7 +778,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-amplifier theme--light"
+                  class="v-icon notranslate mdi mdi-amplifier"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -894,7 +788,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-anchor theme--light"
+                  class="v-icon notranslate mdi mdi-anchor"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -904,7 +798,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-android theme--light"
+                  class="v-icon notranslate mdi mdi-android"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"></span>
               </div>
@@ -914,12 +808,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-android-debug-bridge
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-android-debug-bridge"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -929,7 +818,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-android-head theme--light"
+                  class="v-icon notranslate mdi mdi-android-head"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -939,7 +828,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-android-studio theme--light"
+                  class="v-icon notranslate mdi mdi-android-studio"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -949,7 +838,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-angle-acute theme--light"
+                  class="v-icon notranslate mdi mdi-angle-acute"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -959,7 +848,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-angle-obtuse theme--light"
+                  class="v-icon notranslate mdi mdi-angle-obtuse"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -969,7 +858,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-angle-right theme--light"
+                  class="v-icon notranslate mdi mdi-angle-right"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -979,7 +868,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-angular theme--light"
+                  class="v-icon notranslate mdi mdi-angular"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -989,7 +878,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-angularjs theme--light"
+                  class="v-icon notranslate mdi mdi-angularjs"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -999,7 +888,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-animation theme--light"
+                  class="v-icon notranslate mdi mdi-animation"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1009,7 +898,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-animation-play theme--light"
+                  class="v-icon notranslate mdi mdi-animation-play"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1019,7 +908,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-anvil theme--light"
+                  class="v-icon notranslate mdi mdi-anvil"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1029,7 +918,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-apple theme--light"
+                  class="v-icon notranslate mdi mdi-apple"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1039,7 +928,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-apple-finder theme--light"
+                  class="v-icon notranslate mdi mdi-apple-finder"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1049,7 +938,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-apple-icloud theme--light"
+                  class="v-icon notranslate mdi mdi-apple-icloud"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1059,7 +948,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-apple-ios theme--light"
+                  class="v-icon notranslate mdi mdi-apple-ios"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1069,12 +958,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-apple-keyboard-caps
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-apple-keyboard-caps"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1084,12 +968,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-apple-keyboard-command
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-apple-keyboard-command"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1099,12 +978,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-apple-keyboard-control
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-apple-keyboard-control"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1114,12 +988,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-apple-keyboard-option
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-apple-keyboard-option"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1129,12 +998,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-apple-keyboard-shift
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-apple-keyboard-shift"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1144,7 +1008,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-apple-safari theme--light"
+                  class="v-icon notranslate mdi mdi-apple-safari"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1154,7 +1018,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-application theme--light"
+                  class="v-icon notranslate mdi mdi-application"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1164,7 +1028,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-approval theme--light"
+                  class="v-icon notranslate mdi mdi-approval"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1174,7 +1038,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-apps theme--light"
+                  class="v-icon notranslate mdi mdi-apps"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1184,7 +1048,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arch theme--light"
+                  class="v-icon notranslate mdi mdi-arch"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1194,7 +1058,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-archive theme--light"
+                  class="v-icon notranslate mdi mdi-archive"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1204,12 +1068,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrange-bring-forward
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrange-bring-forward"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1219,12 +1078,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrange-bring-to-front
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrange-bring-to-front"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1234,12 +1088,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrange-send-backward
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrange-send-backward"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1249,12 +1098,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrange-send-to-back
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrange-send-to-back"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1264,7 +1108,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-all theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-all"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1274,12 +1118,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-bottom-left
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-bottom-left"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1293,7 +1132,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-bottom-left-bold-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -1304,12 +1142,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-bottom-left-thick
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-bottom-left-thick"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1319,12 +1152,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-bottom-right
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-bottom-right"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1338,7 +1166,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-bottom-right-bold-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -1349,12 +1176,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-bottom-right-thick
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-bottom-right-thick"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1364,7 +1186,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-collapse theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-collapse"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1374,12 +1196,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-collapse-all
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-collapse-all"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1389,12 +1206,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-collapse-down
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-collapse-down"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1404,12 +1216,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-collapse-horizontal
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-collapse-horizontal"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1419,12 +1226,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-collapse-left
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-collapse-left"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1434,12 +1236,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-collapse-right
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-collapse-right"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1449,12 +1246,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-collapse-up
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-collapse-up"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1464,12 +1256,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-collapse-vertical
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-collapse-vertical"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1479,7 +1266,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-decision theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-decision"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1489,12 +1276,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-decision-auto
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-decision-auto"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"></span>
               </div>
@@ -1504,12 +1286,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-decision-auto-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-decision-auto-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1519,12 +1296,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-decision-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-decision-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1534,7 +1306,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-down theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-down"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1544,12 +1316,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-down-bold
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-down-bold"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1559,12 +1326,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-down-bold-box
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-down-bold-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1574,12 +1336,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-down-bold-box-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-down-bold-box-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1589,12 +1346,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-down-bold-circle
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-down-bold-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1608,7 +1360,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-down-bold-circle-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -1623,7 +1374,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-down-bold-hexagon-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -1634,12 +1384,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-down-bold-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-down-bold-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1649,7 +1394,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-down-box theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-down-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1659,12 +1404,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-down-drop-circle
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-down-drop-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1678,7 +1418,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-down-drop-circle-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -1689,12 +1428,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-down-thick
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-down-thick"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1704,7 +1438,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-expand theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-expand"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1714,12 +1448,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-expand-all
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-expand-all"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1729,12 +1458,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-expand-down
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-expand-down"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1744,12 +1468,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-expand-horizontal
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-expand-horizontal"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1759,12 +1478,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-expand-left
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-expand-left"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1774,12 +1488,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-expand-right
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-expand-right"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1789,12 +1498,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-expand-up
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-expand-up"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1804,12 +1508,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-expand-vertical
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-expand-vertical"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1819,7 +1518,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-left theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-left"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1829,12 +1528,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-left-bold
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-left-bold"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1844,12 +1538,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-left-bold-box
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-left-bold-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1859,12 +1548,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-left-bold-box-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-left-bold-box-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1874,12 +1558,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-left-bold-circle
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-left-bold-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1893,7 +1572,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-left-bold-circle-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -1908,7 +1586,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-left-bold-hexagon-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -1919,12 +1596,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-left-bold-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-left-bold-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1934,7 +1606,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-left-box theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-left-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1944,12 +1616,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-left-drop-circle
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-left-drop-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -1963,7 +1630,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-left-drop-circle-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -1978,7 +1644,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-left-right-bold-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -1989,12 +1654,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-left-thick
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-left-thick"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2004,7 +1664,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-right theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-right"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2014,12 +1674,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-right-bold
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-right-bold"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2029,12 +1684,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-right-bold-box
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-right-bold-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2048,7 +1698,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-right-bold-box-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -2059,12 +1708,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-right-bold-circle
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-right-bold-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2078,7 +1722,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-right-bold-circle-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -2093,7 +1736,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-right-bold-hexagon-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -2104,12 +1746,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-right-bold-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-right-bold-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2119,12 +1756,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-right-box
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-right-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2134,12 +1766,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-right-drop-circle
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-right-drop-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2153,7 +1780,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-right-drop-circle-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -2164,12 +1790,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-right-thick
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-right-thick"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2179,12 +1800,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-split-horizontal
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-split-horizontal"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2194,12 +1810,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-split-vertical
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-split-vertical"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2209,7 +1820,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-top-left theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-top-left"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2219,12 +1830,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-top-left-bold-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-top-left-bold-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2234,12 +1840,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-top-left-thick
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-top-left-thick"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2249,12 +1850,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-top-right
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-top-right"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2268,7 +1864,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-top-right-bold-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -2279,12 +1874,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-top-right-thick
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-top-right-thick"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2294,7 +1884,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-up theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-up"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2304,7 +1894,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-up-bold theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-up-bold"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2314,12 +1904,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-up-bold-box
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-up-bold-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2329,12 +1914,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-up-bold-box-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-up-bold-box-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2344,12 +1924,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-up-bold-circle
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-up-bold-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2363,7 +1938,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-up-bold-circle-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -2378,7 +1952,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-up-bold-hexagon-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -2389,12 +1962,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-up-bold-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-up-bold-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2404,7 +1972,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-up-box theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-up-box"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2414,12 +1982,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-up-down-bold-outline
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-up-down-bold-outline"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2429,12 +1992,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-arrow-up-drop-circle
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-arrow-up-drop-circle"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2448,7 +2006,6 @@
                     v-icon
                     notranslate
                     mdi mdi-arrow-up-drop-circle-outline
-                    theme--light
                   "
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
@@ -2459,7 +2016,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-arrow-up-thick theme--light"
+                  class="v-icon notranslate mdi mdi-arrow-up-thick"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2469,7 +2026,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-artist theme--light"
+                  class="v-icon notranslate mdi mdi-artist"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2479,7 +2036,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-assistant theme--light"
+                  class="v-icon notranslate mdi mdi-assistant"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2489,7 +2046,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-asterisk theme--light"
+                  class="v-icon notranslate mdi mdi-asterisk"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2499,7 +2056,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-at theme--light"
+                  class="v-icon notranslate mdi mdi-at"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2509,7 +2066,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-atlassian theme--light"
+                  class="v-icon notranslate mdi mdi-atlassian"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2519,7 +2076,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-atom theme--light"
+                  class="v-icon notranslate mdi mdi-atom"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2529,7 +2086,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-attachment theme--light"
+                  class="v-icon notranslate mdi mdi-attachment"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2539,7 +2096,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-audio-video theme--light"
+                  class="v-icon notranslate mdi mdi-audio-video"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2549,7 +2106,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-audiobook theme--light"
+                  class="v-icon notranslate mdi mdi-audiobook"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2559,12 +2116,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="
-                    v-icon
-                    notranslate
-                    mdi mdi-augmented-reality
-                    theme--light
-                  "
+                  class="v-icon notranslate mdi mdi-augmented-reality"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2574,7 +2126,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-auto-fix theme--light"
+                  class="v-icon notranslate mdi mdi-auto-fix"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2584,7 +2136,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-auto-upload theme--light"
+                  class="v-icon notranslate mdi mdi-auto-upload"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2594,7 +2146,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-autorenew theme--light"
+                  class="v-icon notranslate mdi mdi-autorenew"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2604,7 +2156,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-av-timer theme--light"
+                  class="v-icon notranslate mdi mdi-av-timer"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2614,7 +2166,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-axe theme--light"
+                  class="v-icon notranslate mdi mdi-axe"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2624,7 +2176,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-azure theme--light"
+                  class="v-icon notranslate mdi mdi-azure"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2634,7 +2186,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-baby theme--light"
+                  class="v-icon notranslate mdi mdi-baby"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2644,7 +2196,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-baby-buggy theme--light"
+                  class="v-icon notranslate mdi mdi-baby-buggy"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2654,7 +2206,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-backburger theme--light"
+                  class="v-icon notranslate mdi mdi-backburger"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2664,7 +2216,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-backspace theme--light"
+                  class="v-icon notranslate mdi mdi-backspace"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2674,7 +2226,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-backup-restore theme--light"
+                  class="v-icon notranslate mdi mdi-backup-restore"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2684,7 +2236,7 @@
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  class="v-icon notranslate mdi mdi-badminton theme--light"
+                  class="v-icon notranslate mdi mdi-badminton"
                 ></i
                 ><span class="v-tooltip v-tooltip--top"><!----></span>
               </div>
@@ -2697,7 +2249,7 @@
     <v-row class="my-8">
       <v-col class="text-center">
         <v-btn
-          color="success font-weight-light"
+          color="success font-"
           x-large
           href="https://materialdesignicons.com/"
           target="_blank"
