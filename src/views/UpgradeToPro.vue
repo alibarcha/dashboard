@@ -1,7 +1,7 @@
 <template>
   <!--upgrade to pro -->
 
-  <v-container class="my-12">
+  <v-container class="mt-12 mb-8">
     <v-row class="justify-center">
       <v-col md="8" cols="12">
         <v-card elevation="2">

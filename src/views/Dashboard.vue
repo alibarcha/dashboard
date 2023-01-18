@@ -1,6 +1,6 @@
 <template>
   <!-- Dashboard -->
-  <v-container fluid class="my-12">
+  <v-container fluid class="mt-12 mb-8">
     <v-row>
       <v-col lg="4" cols="12">
         <v-card elevation="2">
@@ -93,7 +93,7 @@
     </v-row>
 
     <!-- mini cards -->
-    <v-row class="my-12">
+    <v-row class="mt-12">
       <v-col lg="3" sm="6" cols="12" class="mt-sm-0 mt-6">
         <MiniCard
           NumberData="+245"

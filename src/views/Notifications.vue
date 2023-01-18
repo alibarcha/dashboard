@@ -1,7 +1,7 @@
 <template>
   <!-- icons -->
 
-  <v-container fluid class="my-12">
+  <v-container fluid class="mt-12 mb-8">
     <v-row>
       <v-col class="text-center py-0">
         <h1 class="font-weight-light mb-1 headline">Vuetify Alerts</h1>
@@ -133,7 +133,7 @@
 
     <!-- Dialogs & alerts -->
     <v-row>
-      <v-col cols="12" class="mb-5">
+      <v-col cols="12" >
         <v-card elevation="2" class="pa-5">
           <h4 class="font-weight-light text-center mb-4">Snackbar Locations</h4>
           <v-row class="text-center justify-center">

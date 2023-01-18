@@ -1,6 +1,6 @@
 <template>
   <!--user profile-->
-  <v-container fluid class="my-12">
+  <v-container fluid class="mt-12 mb-8">
     <v-row>
       <v-col lg="7" cols="12">
         <v-card elevation="2">

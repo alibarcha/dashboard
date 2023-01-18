@@ -1,7 +1,7 @@
 <template>
   <!-- icons -->
 
-  <v-container fluid class="my-12">
+  <v-container fluid class="mt-12 mb-8">
     <v-row>
       <v-col class="text-center py-0">
         <h1 class="font- mb-1 headline">Vuetify Icons</h1>
@@ -21,7 +21,7 @@
     </v-row>
 
     <!-- table 1 -->
-    <v-row class="mt-12 mb-0 py-0">
+    <v-row class="mt-12  py-0">
       <v-col>
         <v-card elevation="2">
           <v-sheet
@@ -2246,7 +2246,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="my-8">
+    <v-row class="mt-8">
       <v-col class="text-center">
         <v-btn
           color="success font-"

@@ -1,7 +1,7 @@
 <template>
   <!--regular table -->
 
-  <v-container fluid class="my-12">
+  <v-container fluid class="mt-12 mb-8">
     <v-row>
       <v-col class="text-center py-0">
         <h1 class="font-weight-light mb-1 headline">Vuetify Simple Tables</h1>
@@ -52,7 +52,7 @@
       </v-col>
     </v-row>
     <!-- table 2 -->
-    <v-row class="my-10 py-0">
+    <v-row class="mt-10 py-0">
       <v-col>
         <v-card elevation="2" class="cardWrapper" dark>
           <div class="cardTop">

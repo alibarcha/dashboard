@@ -1,6 +1,6 @@
 <template>
   <!-- google maps -->
-  <v-container fluid class="my-12">
+  <v-container fluid class="mt-12 mb-8">
     <v-row>
       <v-col cols="12">
         <v-card elevation="2">
@@ -29,7 +29,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="my-12">
+    <v-row class="mt-12">
       <v-col lg="6" cols="12">
         <v-card elevation="2">
           <v-sheet

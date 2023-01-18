@@ -1,7 +1,7 @@
 <template>
   <!-- icons -->
 
-  <v-container fluid class="my-12">
+  <v-container fluid class="mt-12 mb-8">
     <v-row>
       <v-col class="text-center py-0">
         <h1 class="font-weight-light mb-1 headline">Vuetify Typography</h1>
@@ -20,7 +20,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="mt-16 mb-8">
+    <v-row class="mt-16">
       <v-col cols="12">
         <v-card elevation="2" class="pb-6">
           <v-sheet
