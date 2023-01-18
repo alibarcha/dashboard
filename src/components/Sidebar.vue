@@ -7,7 +7,7 @@
     class="px-3 pt-3  black"
   >
     <v-list>
-      <v-list-item>
+      <v-list-item to="/">
         <v-avatar color="white" size="45">
           <img src="../assets/logo.svg" alt="logo" />
         </v-avatar>
