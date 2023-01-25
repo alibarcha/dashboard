@@ -16,14 +16,14 @@
               min-height="70px"
               color="success"
             >
-              <v-icon>mdi-card-account-details</v-icon>
+              <v-icon>mdi-login</v-icon>
             </v-sheet>
             <div class="title font-weight-light flex ml-8 mt-3">
-              Signup Form
+              Login Form
             </div>
           </div>
 
-          <v-card-text class="pt-0 px-12 pb-8">
+          <v-card-text class="pt-0 px-sm-12 pb-8">
             <v-form ref="form" v-model="valid" lazy-validation>
               <v-text-field
                 v-model="email"
@@ -31,6 +31,7 @@
                 label="Email"
                 color="success"
                 required
+                 class="mt-4"
               ></v-text-field>
 
               <v-text-field
@@ -39,9 +40,12 @@
                 label="Password"
                 color="success"
                 required
+                :append-icon="pass ? 'mdi-eye-off' : 'mdi-eye'"
+                :type="pass ? 'password' : 'text'"
+                @click:append="IconClick"
+                class="mt-4"
               >
               </v-text-field>
-
               <v-btn
                 color="success"
                 class="font-weight-light d-block ml-auto mt-5"
@@ -65,6 +69,7 @@ export default {
       valid: true,
       email: "",
       password: "",
+      pass: true,
       emailRules: [
         (v) => !!v || "E-mail is required",
         (v) => /.+@.+\..+/.test(v) || "E-mail must be valid",
@@ -87,6 +92,11 @@ export default {
     //   resetValidation () {
     //     this.$refs.form.resetValidation()
     //   },
+
+    // IconClick
+    IconClick() {
+      this.pass = !this.pass;
+    },
   },
 };
 </script>

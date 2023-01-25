@@ -6,7 +6,7 @@
   <v-container class="mt-12 mb-8">
     <v-row class="justify-center">
       <v-col md="9" cols="12">
-        <v-card elevation="2" >
+        <v-card elevation="2">
           <div class="cardTop">
             <v-sheet
               class="v-sheet--offset white--text"
@@ -23,7 +23,7 @@
             </div>
           </div>
 
-          <v-card-text class="pt-0 px-12 pb-8">
+          <v-card-text class="pt-0 px-sm-12 pb-8">
             <v-form ref="form" v-model="valid" lazy-validation>
               <v-text-field
                 v-model="name"
@@ -32,6 +32,7 @@
                 label="User Name"
                 color="success"
                 required
+                 class="mt-4"
               ></v-text-field>
 
               <v-text-field
@@ -40,6 +41,7 @@
                 label="Email"
                 color="success"
                 required
+                 class="mt-4"
               ></v-text-field>
 
               <v-text-field
@@ -48,19 +50,20 @@
                 label="Password"
                 color="success"
                 required
+                 class="mt-4"
+                :append-icon="pass ? 'mdi-eye-off' : 'mdi-eye'"
+                :type="pass ? 'password' : 'text'"
+                @click:append="IconClick"
               >
               </v-text-field>
 
-               <v-btn
-               color="success"
-               class="font-weight-light d-block ml-auto mt-5"
-               large
-               
-               >
-               REGISTER
+              <v-btn
+                color="success"
+                class="font-weight-light d-block ml-auto mt-5"
+                large
+              >
+                Sign-up
               </v-btn>
-
-
             </v-form>
           </v-card-text>
         </v-card>
@@ -78,6 +81,7 @@ export default {
       name: "",
       email: "",
       password: "",
+      pass: true,
 
       nameRules: [
         (v) => !!v || "Name is required",
@@ -105,6 +109,11 @@ export default {
     //   resetValidation () {
     //     this.$refs.form.resetValidation()
     //   },
+
+    // IconClick
+    IconClick() {
+      this.pass = !this.pass;
+    },
   },
 };
 </script>
