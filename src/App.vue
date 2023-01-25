@@ -45,11 +45,16 @@ export default {
 };
 </script>
 
+<style>
+/* for footer fixing */
+#main .v-main__wrap{
+  display: grid !important;
+}
+</style>
 <style scoped>
 .theme--light .myColorTheme {
   background-color: #eee;
 }
-
 @media screen and (min-width: 900px) {
   .is-menu-open {
     padding-left: 260px !important;

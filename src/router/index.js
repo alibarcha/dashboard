@@ -9,6 +9,9 @@ import GoogleMaps from '../views/GoogleMaps'
 import Notifications from '../views/Notifications'
 import UpgradeToPro from '../views/UpgradeToPro'
 
+import Signup from '../views/Signup'
+import Login from '../views/Login'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -52,6 +55,16 @@ const routes = [
     name: 'upgrade',
     component: UpgradeToPro
   },
+  {
+    path:'/signup',
+    name:'signup',
+    component :Signup
+  },
+  {
+    path:'/login',
+    name:'login',
+    component:Login
+  }
 
 ]
 
