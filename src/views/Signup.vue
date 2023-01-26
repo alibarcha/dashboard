@@ -24,7 +24,7 @@
           </div>
 
           <v-card-text class="pt-0 px-sm-12 pb-8">
-            <v-form ref="form" v-model="valid" lazy-validation>
+            <v-form ref="form" v-model="valid" lazy-validation @submit.prevent="register">
               <v-text-field
                 v-model="name"
                 :counter="10"
@@ -60,6 +60,7 @@
               <v-btn
                 color="success"
                 class="font-weight-light d-block ml-auto mt-5"
+                type="submit"
                 large
               >
                 Sign-up
@@ -73,6 +74,8 @@
 </template>
 
 <script>
+import { auth } from "@/firebaseConfig"
+import { createUserWithEmailAndPassword } from "firebase/auth";
 export default {
   name: "Signup",
   data() {
@@ -103,18 +106,30 @@ export default {
     validate() {
       this.$refs.form.validate();
     },
-    //   reset () {
-    //     this.$refs.form.reset()
-    //   },
-    //   resetValidation () {
-    //     this.$refs.form.resetValidation()
-    //   },
-
+ 
     // IconClick
     IconClick() {
       this.pass = !this.pass;
     },
+
+
+    // formSubmit
+  async register() {
+
+    const response = await createUserWithEmailAndPassword(auth, this.email, this.password)
+        if (response) {
+             console.log("user", response)
+          } else {
+              // throw new Error('Unable to register user')
+              console.log('error')
+          }
+
+
   },
+
+
+  },
+
 };
 </script>
 <style scoped>
