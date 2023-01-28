@@ -18,12 +18,12 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path:'/',
+    path:'/login',
     name:'login',
     component:Login
   },
   {
-    path: '/dashboard',
+    path: '/',
     name: 'dashboard',
     component: Dashboard,
     meta: {
@@ -122,7 +122,7 @@ router.beforeEach((to,from,next)=>{
       next();
     }else{
       alert('You do not Login ? Please Login & Use')
-      router.push('/')
+      router.push('/login')
     }
   }else{
     next();

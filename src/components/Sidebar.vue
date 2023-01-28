@@ -79,7 +79,7 @@ export default {
   data() {
     return {
       links: [
-        { icon: "mdi-view-dashboard", text: "Dashboard", route: "/dashboard" },
+        { icon: "mdi-view-dashboard", text: "Dashboard", route: "/" },
         { icon: "mdi-account", text: "User Profile", route: "/userprofile" },
         {
           icon: "mdi-clipboard-edit",

@@ -22,7 +22,12 @@
           </div>
 
           <v-card-text class="pt-0 px-sm-12 pb-8">
-            <v-form ref="form" v-model="valid" lazy-validation   @submit.prevent="login">
+            <v-form
+              ref="form"
+              v-model="valid"
+              lazy-validation
+              @submit.prevent="login"
+            >
               <v-text-field
                 v-model="email"
                 :rules="emailRules"
@@ -46,25 +51,51 @@
               </v-text-field>
               <p class="pt-2">
                 You don't have an account? &nbsp;
-                 <v-btn
-                 text
-                 color="primary"
-                 height="0"
-                 width="0"
-                 plain
-                 to="/signup"
-                 >
-                 Sign Up
+                <v-btn
+                  text
+                  color="primary"
+                  height="0"
+                  width="0"
+                  plain
+                  to="/signup"
+                >
+                  Sign Up
                 </v-btn>
-                </p>
+              </p>
+
+              <!-- submit -->
               <v-btn
-                color="success"
                 class="font-weight-light d-block ml-auto mt-5"
                 large
-                 type="submit"
+                type="submit"
+                :loading="loading"
+                :disabled="loading"
+                color="success"
+                @click="loader = 'loading'"
               >
                 Login
+                <template v-slot:loader>
+                  <span class="custom-loader">
+                    <v-icon light>mdi-cached</v-icon>
+                  </span>
+                </template>
               </v-btn>
+              <!-- Forms snackbars -->
+              <v-snackbar v-model="snackbar" color="error" top timeout="50000">
+                {{ text }}
+
+                <template v-slot:action="{ attrs }">
+                  <v-btn
+                    color="white"
+                    text
+                    v-bind="attrs"
+                    @click="snackbar = false"
+                  >
+                    Close
+                  </v-btn>
+                </template>
+              </v-snackbar>
+              <!-- snaclbar end -->
             </v-form>
           </v-card-text>
         </v-card>
@@ -94,6 +125,11 @@ export default {
         (v) =>
           (v && v.length >= 5) || "Password must be greater than 5 characters",
       ],
+
+      loading: false,
+      // alerts data
+      snackbar: false,
+      text: `Please first Signup then Login the page...`,
     };
   },
 
@@ -106,30 +142,33 @@ export default {
       this.pass = !this.pass;
     },
 
-       // --------form login----------
+    // --------form login----------
     async login() {
-   
       // -------------methed -----------------
       const isValid = this.$refs.form.validate();
       if (isValid) {
-
-        await  signInWithEmailAndPassword(auth, this.email, this.password)
+        this.loading = true;
+        await signInWithEmailAndPassword(auth, this.email, this.password)
           .then((res) => {
             console.log("login Response :> ", res);
-            
-            this.$router.push('/dashboard')
+            this.loading = false;
+            this.$router.push("/");
           })
-          .catch((e) => {
-            // console.log("my error", e.message);
-            alert(' OOPS ! ', e.message);
+          .catch(() => {
+            this.loading = false;
+            this.snackbar = true;
           });
-
       }
-
     },
+  },
 
-
-
+  watch: {
+    loader() {
+      const l = this.loader;
+      this[l] = !this[l];
+      setTimeout(() => (this[l] = false), 3000);
+      this.loader = null;
+    },
   },
 };
 </script>
@@ -151,6 +190,46 @@ export default {
 .v-sheet--offset i {
   font-size: 30px;
   color: white;
+}
+</style>
+
+<style>
+/* loader button */
+.custom-loader {
+  animation: loader 1s infinite;
+  display: flex;
+}
+@-moz-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 </style>
 

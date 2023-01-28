@@ -133,8 +133,8 @@ export default {
     //------ logout -------
     logout(){
       auth.signOut().then(()=>{
-        alert('Sign Out completed')
-        this.$router.replace('/')
+        // alert('Sign Out completed')
+        this.$router.replace('/login')
       }).catch((error)=>{
         console.log('logout error',error)
       })

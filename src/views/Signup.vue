@@ -61,27 +61,52 @@
                 @click:append="IconClick"
               >
               </v-text-field>
-                   <p class="pt-2">
-                Already have an account? 
-                 <v-btn
-                 text
-                 color="primary"
-                 height="0"
-                 width="0"
-                 plain
-                 to="/"
-                 >
-                 Login
+              <p class="pt-2">
+                Already have an account?
+                <v-btn
+                  text
+                  color="primary"
+                  height="0"
+                  width="0"
+                  plain
+                  to="/login"
+                >
+                  Login
                 </v-btn>
-                </p>
+              </p>
+              <!-- submit -->
               <v-btn
-                color="success"
                 class="font-weight-light d-block ml-auto mt-5"
-                type="submit"
                 large
+                type="submit"
+                :loading="loading"
+                :disabled="loading"
+                color="success"
+                @click="loader = 'loading'"
               >
-                Sign-up
+                Signup
+                <template v-slot:loader>
+                  <span class="custom-loader">
+                    <v-icon light>mdi-cached</v-icon>
+                  </span>
+                </template>
               </v-btn>
+
+              <!-- Forms snackbars -->
+              <v-snackbar v-model="snackbar">
+                {{ text }}
+
+                <template v-slot:action="{ attrs }">
+                  <v-btn
+                    color="pink"
+                    text
+                    v-bind="attrs"
+                    @click="snackbar = false"
+                  >
+                    Close
+                  </v-btn>
+                </template>
+              </v-snackbar>
             </v-form>
           </v-card-text>
         </v-card>
@@ -116,6 +141,10 @@ export default {
         (v) =>
           (v && v.length >= 5) || "Password must be greater than 5 characters",
       ],
+      loading: false,
+      // alerts data
+      snackbar: false,
+      text: `You hav Successfully Signup !`,
     };
   },
 
@@ -148,24 +177,36 @@ export default {
 
       const isValid = this.$refs.form.validate();
       if (isValid) {
+        this.loading = true;
         await createUserWithEmailAndPassword(auth, this.email, this.password)
           .then((res) => {
             console.log("Signup Response :> ", res);
-            alert("You have Successfull Sign Up !...");
-            localStorage.setItem('response',JSON.stringify( res))
-
-            this.$router.push('/')
-
+            // alert("You have Successfull Sign Up !...");
+            // localStorage.setItem('response',JSON.stringify( res))
+            this.loading = false;
+            this.$router.push("/login");
+            this.snackbar = true;
             this.$refs.form.resetValidation();
             this.email = "";
             this.password = "";
             this.name = "";
           })
-          .catch((e) => {
+          .catch(() => {
+            this.loading = false;
+            this.snackbar = false;
             // console.log("my error", e.message);
-            alert(' OOPS !', e.message);
+            // alert(' OOPS !', e.message);
           });
       }
+    },
+  },
+
+  watch: {
+    loader() {
+      const l = this.loader;
+      this[l] = !this[l];
+      setTimeout(() => (this[l] = false), 3000);
+      this.loader = null;
     },
   },
 };
