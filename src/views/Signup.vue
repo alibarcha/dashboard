@@ -24,15 +24,20 @@
           </div>
 
           <v-card-text class="pt-0 px-sm-12 pb-8">
-            <v-form ref="form" v-model="valid" lazy-validation @submit.prevent="register">
+            <v-form
+              ref="form"
+              v-model="valid"
+              lazy-validation
+              @submit.prevent="register"
+            >
               <v-text-field
                 v-model="name"
-                :counter="10"
+                :counter="15"
                 :rules="nameRules"
                 label="User Name"
                 color="success"
                 required
-                 class="mt-4"
+                class="mt-4"
               ></v-text-field>
 
               <v-text-field
@@ -41,7 +46,7 @@
                 label="Email"
                 color="success"
                 required
-                 class="mt-4"
+                class="mt-4"
               ></v-text-field>
 
               <v-text-field
@@ -50,13 +55,25 @@
                 label="Password"
                 color="success"
                 required
-                 class="mt-4"
+                class="mt-4"
                 :append-icon="pass ? 'mdi-eye-off' : 'mdi-eye'"
                 :type="pass ? 'password' : 'text'"
                 @click:append="IconClick"
               >
               </v-text-field>
-
+                   <p class="pt-2">
+                Already have an account? 
+                 <v-btn
+                 text
+                 color="primary"
+                 height="0"
+                 width="0"
+                 plain
+                 to="/"
+                 >
+                 Login
+                </v-btn>
+                </p>
               <v-btn
                 color="success"
                 class="font-weight-light d-block ml-auto mt-5"
@@ -74,7 +91,7 @@
 </template>
 
 <script>
-import { auth } from "@/firebaseConfig"
+import { auth } from "@/firebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 export default {
   name: "Signup",
@@ -88,7 +105,7 @@ export default {
 
       nameRules: [
         (v) => !!v || "Name is required",
-        (v) => (v && v.length <= 10) || "Name must be less than 10 characters",
+        (v) => (v && v.length <= 15) || "Name must be less than 15 characters",
       ],
       emailRules: [
         (v) => !!v || "E-mail is required",
@@ -106,32 +123,55 @@ export default {
     validate() {
       this.$refs.form.validate();
     },
- 
+
     // IconClick
     IconClick() {
       this.pass = !this.pass;
     },
 
-
     // formSubmit
-  async register() {
+    async register() {
+      // -------------methed 1----------
 
-    const response = await createUserWithEmailAndPassword(auth, this.email, this.password)
-        if (response) {
-             console.log("user", response)
-          } else {
-              // throw new Error('Unable to register user')
-              console.log('error')
-          }
+      // const response = await createUserWithEmailAndPassword(auth, this.email, this.password)
+      // if (response) {
+      //      console.log("user", response)
+      //       alert('Successfully registered! Please login.');
+      //        this.$router.push('/');
+      //   } else {
+      //       // throw new Error('Unable to register user')
+      //       console.log('error')
+      //         alert('Please enter valid data');
+      //   }
 
+      // -------------methed 2-----------------
 
+      const isValid = this.$refs.form.validate();
+      if (isValid) {
+        await createUserWithEmailAndPassword(auth, this.email, this.password)
+          .then((res) => {
+            console.log("Signup Response :> ", res);
+            alert("You have Successfull Sign Up !...");
+            localStorage.setItem('response',JSON.stringify( res))
+
+            this.$router.push('/')
+
+            this.$refs.form.resetValidation();
+            this.email = "";
+            this.password = "";
+            this.name = "";
+          })
+          .catch((e) => {
+            // console.log("my error", e.message);
+            alert(' OOPS !', e.message);
+          });
+      }
+    },
   },
-
-
-  },
-
 };
 </script>
+
+
 <style scoped>
 .cardTop {
   display: flex;
