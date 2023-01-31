@@ -28,6 +28,7 @@ const routes = [
     component: Dashboard,
     meta: {
       authRequired: true,
+      layout: "UserLayout"
     },
 
   },
@@ -37,6 +38,7 @@ const routes = [
     component: UserProfile,
     meta: {
       authRequired: true,
+      layout: "UserLayout"
     },
   },
   {
@@ -45,6 +47,7 @@ const routes = [
     component: RegularTables,
     meta: {
       authRequired: true,
+      layout: "UserLayout"
     },
   },
   {
@@ -53,6 +56,7 @@ const routes = [
     component: Typography,
     meta: {
       authRequired: true,
+      layout: "UserLayout"
     },
   },
   {
@@ -61,6 +65,7 @@ const routes = [
     component: Icons,
     meta: {
       authRequired: true,
+      layout: "UserLayout"
     },
   },
   {
@@ -69,6 +74,7 @@ const routes = [
     component: GoogleMaps,
     meta: {
       authRequired: true,
+      layout: "UserLayout"
     },
   },
   {
@@ -77,6 +83,7 @@ const routes = [
     component: Notifications,
     meta: {
       authRequired: true,
+      layout: "UserLayout"
     },
   },
   {
@@ -85,12 +92,13 @@ const routes = [
     component: UpgradeToPro,
     meta: {
       authRequired: true,
+      layout:"UserLayout"
     },
   },
   {
     path:'/signup',
     name:'signup',
-    component :Signup
+    component :Signup,
   },
 
 
