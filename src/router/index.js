@@ -121,7 +121,7 @@ router.beforeEach((to,from,next)=>{
     if(auth.currentUser){
       next();
     }else{
-      alert('You do not Login ? Please Login & Use')
+      // alert('You do not Login ? Please Login & Use')
       router.push('/login')
     }
   }else{

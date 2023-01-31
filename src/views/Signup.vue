@@ -178,6 +178,7 @@ export default {
       const isValid = this.$refs.form.validate();
       if (isValid) {
         this.loading = true;
+        this.snackbar=true
         await createUserWithEmailAndPassword(auth, this.email, this.password)
           .then((res) => {
             console.log("Signup Response :> ", res);
