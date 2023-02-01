@@ -48,9 +48,9 @@ export default {
 
 <style>
 /* for footer fixing */
-#main .v-main__wrap{
+/* #main .v-main__wrap{
   display: grid !important;
-}
+} */
 </style>
 <style scoped>
 .theme--light .myColorTheme {
