@@ -53,4 +53,7 @@ export default {
 </script>
 
 <style scoped>
+footer{
+  align-self: flex-end !important;
+}
 </style>

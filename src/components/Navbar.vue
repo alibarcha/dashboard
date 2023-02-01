@@ -91,10 +91,24 @@
     >
       <v-icon> mdi-account </v-icon>
     </v-btn>
+    <!-- logout -->
+     <v-btn
+      elevation="0"
+      class="gray ms-2"
+      width="30px"
+      height="40px"
+      small
+      @click="logout"
+    >
+      <v-icon> mdi-logout </v-icon>
+    </v-btn>
+
+
   </v-toolbar>
 </template>
 
 <script>
+import { auth } from "@/firebaseConfig";
 export default {
   name: "Navbar",
   data() {
@@ -115,6 +129,16 @@ export default {
     toggleSideBar() {
       this.$emit("toggle");
     },
+
+    //------ logout -------
+    logout(){
+      auth.signOut().then(()=>{
+        // alert('Sign Out completed')
+        this.$router.replace('/login')
+      }).catch((error)=>{
+        console.log('logout error',error)
+      })
+    }
   },
 };
 </script>
