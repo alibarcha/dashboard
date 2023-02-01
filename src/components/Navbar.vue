@@ -145,7 +145,7 @@ export default {
 
 <style scoped>
 .theme--light .app-toolbar {
-  background-color: #eee;
+  background-color: #eee !important;
 }
 .app-toolbar {
   left: 0;
