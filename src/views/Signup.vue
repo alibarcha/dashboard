@@ -178,15 +178,15 @@ export default {
       const isValid = this.$refs.form.validate();
       if (isValid) {
         this.loading = true;
-        this.snackbar=true
+        this.snackbar = true;
         await createUserWithEmailAndPassword(auth, this.email, this.password)
           .then((res) => {
-            console.log("Signup Response :> ", res);
+            // console.log("Signup Response :> ", res);
             // alert("You have Successfull Sign Up !...");
-            // localStorage.setItem('response',JSON.stringify( res))
+            localStorage.setItem("response", JSON.stringify(res));
             this.loading = false;
-            this.$router.push("/login");
             this.snackbar = true;
+            this.$router.push("/login");
             this.$refs.form.resetValidation();
             this.email = "";
             this.password = "";
@@ -194,9 +194,7 @@ export default {
           })
           .catch(() => {
             this.loading = false;
-            this.snackbar = false;
             // console.log("my error", e.message);
-            // alert(' OOPS !', e.message);
           });
       }
     },

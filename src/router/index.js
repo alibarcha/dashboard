@@ -8,7 +8,6 @@ import Icons from '../views/Icons'
 import GoogleMaps from '../views/GoogleMaps'
 import Notifications from '../views/Notifications'
 import UpgradeToPro from '../views/UpgradeToPro'
-
 import Signup from '../views/Signup'
 import Login from '../views/Login'
 
@@ -18,9 +17,9 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path:'/login',
-    name:'login',
-    component:Login
+    path: '/login',
+    name: 'login',
+    component: Login
   },
   {
     path: '/',
@@ -92,23 +91,19 @@ const routes = [
     component: UpgradeToPro,
     meta: {
       authRequired: true,
-      layout:"UserLayout"
+      layout: "UserLayout"
     },
   },
   {
-    path:'/signup',
-    name:'signup',
-    component :Signup,
+    path: '/signup',
+    name: 'signup',
+    component: Signup,
   },
 
-
   {
-    path:'*',
-    redirect:'/login'
+    path: '*',
+    redirect: '/login'
   }
-
-
-
 ]
 
 const router = new VueRouter({
@@ -117,24 +112,16 @@ const router = new VueRouter({
   routes
 })
 
-router.beforeEach((to,from,next)=>{
-  // const currentUser=auth.currentUser;
-  // const requiresAuth=to.matched.some(record=> record.meta.requiresAuth);
-  // if(requiresAuth && currentUser) next('login')
-  // else if(!requiresAuth && currentUser) next('dashboard')
-  // else next();
-
-
-  if(to.matched.some((record)=>record.meta.authRequired)){
-    if(auth.currentUser){
-      next();
-    }else{
-      // alert('You do not Login ? Please Login & Use')
-      router.push('/login')
+router.beforeEach((to, from, next) => {
+  auth.onAuthStateChanged((user) => {
+    if (to.meta?.authRequired && !user) {
+      next('/login')
+    } else if (user && (to.name == "signup" || to.name == "login")) {
+      next("/")
+    } else {
+      next()
     }
-  }else{
-    next();
-  }
+  });
 });
 
 export default router;

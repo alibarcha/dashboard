@@ -95,7 +95,7 @@
                   </v-btn>
                 </template>
               </v-snackbar>
-              <!-- snaclbar end -->
+              <!-- snackbar end -->
             </v-form>
           </v-card-text>
         </v-card>
@@ -106,7 +106,6 @@
 
 <script>
 import { auth } from "@/firebaseConfig";
-// import { createUserWithEmailAndPassword } from "firebase/auth";
 import { signInWithEmailAndPassword } from "firebase/auth";
 export default {
   name: "Login",
