@@ -20,6 +20,7 @@ export default {
 </script>
 
 <style scoped>
+
 .theme--light .myColorTheme {
   background-color: #eee;
 }
