@@ -3,6 +3,7 @@
     <DarkLight></DarkLight>
     <v-main class="myColorTheme" id="main">
       <div class="outer-wrapper px-sm-5 px-3">
+        
         <slot />
       </div>
     </v-main>

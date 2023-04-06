@@ -8,8 +8,15 @@
     <DarkLight></DarkLight>
     <v-main :class="` ${drawer ? 'is-menu-open' : ''} myColorTheme `" id="main">
       <div class="outer-wrapper px-sm-5 px-3">
+           <transition
+          name="fade"
+          mode="out-in"
+          enter-active-class="animate__animated animate__fadeInLeft animate__faster"
+          leave-active-class="animate__animated animate__fadeOutLeft animate__faster"
+        >
         <!-- router view -->
         <slot />
+           </transition>
       </div>
       <Footer></Footer>
     </v-main>
