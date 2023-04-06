@@ -6,7 +6,7 @@
   <v-container class="mt-12 mb-8">
     <v-row class="justify-center">
       <v-col md="9" cols="12">
-        <v-card elevation="2">
+        <v-card elevation="2" class="animate__animated animate__fadeInLeft animate__faster">
           <div class="cardTop">
             <v-sheet
               class="v-sheet--offset white--text"
